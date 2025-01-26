@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fcf3f3;   
+}
+.header{
+    padding-left: 10%;
+}
+em{
+    color: #a530e8;
+    font-weight: 900;
+}
+ul li{
+list-style-type:none;
+   display: inline-block;
+}
+.dropbox ul{
+    display: none;
+    position: absolute;
+    margin-top: 1.5%;
+    padding-left: 0;
+    padding-right: 5%;
+    margin-left: 0;
+    width: 900px;
+}
+.dropbox ul li a{
+    color: black;
+    font-size: large;
+}
+.dropbox ul li a:hover{
+    color: red;
+    background-color: transparent;
+}
+ul li:hover .dropbox ul{
+    background-color: whitesmoke;
+    display: block;
+}
+nav {
+    /* display: flex;
+    justify-content:flex-start; */
+    background: #959a9f;
+    padding-left: 5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    display: inline-block;
+    font-size: 120%;
+}
+
+nav a:hover {
+    background: #004f8b;
+}
+
+footer {
+    background: #011729;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+}
+.home1{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+.home_image{
+    width: 600px;
+    margin-right: 2%;
+}
+.home1 p{
+    font-size: 150%;
+}
+.dropbox{
+    display: block;
+    position: absolute;
+}
+.footer em{
+    color: yellow;
+    font-size: larger;
+}

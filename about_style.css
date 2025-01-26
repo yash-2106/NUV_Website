@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+em {
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+header {
+    background-color: #fcf3f3;
+}
+
+.header {
+    padding-left: 10%;
+}
+
+ul li{
+    list-style-type:none;
+       display: inline-block;
+    }
+    .dropbox ul{
+        display: none;
+        position: absolute;
+        padding-left: 0;
+        padding-right: 5%;
+        margin-left: 0;
+        width: 900px;
+    }
+    .dropbox ul li a{
+        color: black;
+        font-size: large;
+    }
+    .dropbox ul li a:hover{
+        color: red;
+        background-color: transparent;
+    }
+    ul li:hover .dropbox ul{
+        background-color: whitesmoke;
+        display: block;
+    }
+    nav {
+        /* display: flex;
+        justify-content:flex-start; */
+        background: #959a9f;
+        padding-left: 0.15%;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0.8rem 1.5rem;
+        display: inline-block;
+        font-size: 120%;
+    }
+    
+    nav a:hover {
+        background: #004f8b;
+    }
+
+.about_us {
+    width: 90%;
+    padding-left: 5%;
+}
+
+h1 {
+    color: #1494a5;
+    font-size: 200%;
+}
+
+div {
+    padding-left: 5%;
+}
+
+.content_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.content {
+    border: 1px transparent;
+    width: 350px;
+    text-align: center, justify;
+    padding: 0;
+    margin-left: 2%;
+    font-size: large;
+}
+
+.why {
+    font-size: 200%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #1494a5;
+    font-weight: bold;
+}
+footer {
+    background: #011729;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+}
+.footer em{
+    color: yellow;
+    font-size: larger;
+}
